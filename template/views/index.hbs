@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    
+    <div class="main">
+        {{>header}}
+        <div class="content">
+            <p> This a page to get wheather information <br>         
+            </p>
+            
+        </div>
+        <form action="">
+            <label for="search-box">Search box</label>
+            <input id="search-box" type="text" placeholder="Location">
+            <input id="btn" type="submit" value="Search">
+        </form>
+        <p id="messageOne"></p> <br>
+        <p id="messageTwo"></p>
+        {{>footer}}
+    </div>
+    
+   
+    <script type="text/javascript" src="/js/app.js"></script>
+</body>
+
+</html>
