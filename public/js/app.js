@@ -1,4 +1,4 @@
-console.log('js script is loaded')
+console.log('js script is loaded new')
     // const fetch = require('node-fetch')
 fetch('http://puzzle.mead.io/puzzle').then((response) => {
     response.json().then((data) => {
